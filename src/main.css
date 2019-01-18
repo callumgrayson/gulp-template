@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+body {
+    background: #3a3c3a; /* Gun-metal grey */
+}
+
+.top {
+    width: 90%; 
+    height: 14%;
+    background-size: auto 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.center {
+    position: absolute;
+    width: 90%; 
+    height: 70%;
+    /* background-color: white; */
+    background: url('./img/face-text.png') no-repeat center center;
+    background-size: auto 100%;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bottom {
+    width: 90%; 
+    height: 14%;
+    background-size: auto 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition-duration: 150ms;
+}
+
+a:hover {
+    font-size: 1.8rem;
+    color: red;
+}
