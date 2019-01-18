@@ -13,7 +13,7 @@ The last command will install the dependecies needed for the gulp build.
 In **`src`** open **`index.html`** with your editor's live server to see 'changes on save' as you develop your project. 
 - Edit the **`index.html`** file in place.
 - Develop your project and place any images in the **`img`** folder.
-- If you rename any folders the build will not work unless you also change the relevant names in the **`gulpcfile.js`** file.
+- If you rename any folders the build will not work unless you also change the relevant names in the **`gulpfile.js`** file.
 
 ## Build
 - Run **`gulp`** in your terminal. Gulp will transpile, autoprefix, minify and bundle your css, image and javascript files in the **`docs`** folder.
