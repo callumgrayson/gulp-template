@@ -17,18 +17,16 @@ In **`src`** open **`index.html`** with your editor's live server to see 'change
 
 ## Build
 - Run **`gulp`** in your terminal. Gulp will transpile, autoprefix, minify and bundle your css, image and javascript files in the **`docs`** folder.
-- In the **`docs`** folder, in **`index.html`** un/comment thusly: 
+- In the **`docs`** folder, in **`index.html`** add **`.min`** to both files: 
 ```html
-<!-- <link rel="stylesheet" href="./main.css"> -->
-<!-- <script src="./app.js" defer></script> -->
 <link rel="stylesheet" href="./main.min.css">
 <script src="./app.min.js"></script>
 ```
-- Upload/deploy the contents of the **`build`** folder to your site.
+- Upload/deploy the contents of the **`docs`** folder to your site.
 
 ## Demo
 See a build of the 
-[Template](https://callumgrayson.github.io/gulp-template/).
+[template](https://callumgrayson.github.io/gulp-template/).
 
 
 
