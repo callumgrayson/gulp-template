@@ -3,35 +3,32 @@ This is a build template for vanilla Javascript applications. Transpile, autopre
 
 ## Installation
 In your terminal:
-1. `git clone https://github.com/callumgrayson/project-template.git`
-2. `cd project-template`
+1. `git clone https://github.com/callumgrayson/gulp-template.git`
+2. `cd gulp-template`
 3. `npm i`
 
-The last command will install the dependecies needed for the webpack build.
+The last command will install the dependecies needed for the gulp build.
 
 ## Development
-Open **`index.html`** in your editor's live server to see 'changes on save' as you develop your project. Please note the following points:
-- In **`index.html`** uncomment the css and js tags: 
-```html
-<link rel="stylesheet" href="../src/main.css">
-<script src="../src/app.js"></script>
-```
-- In **`index.html`** comment out the bundle tag:
-```html
-<!-- <script src="./bundle.min.js" defer></script> -->
-```
+In **`src`** open **`index.html`** with your editor's live server to see 'changes on save' as you develop your project. 
 - Edit the **`index.html`** file in place.
-- Develop your project and place any assests in the **`src`** folder.
-- If you rename any folders the build will not work unless you also change the relevant names in the **`webpack.config.js`** file.
+- Develop your project and place any images in the **`img`** folder.
+- If you rename any folders the build will not work unless you also change the relevant names in the **`gulpcfile.js`** file.
 
 ## Build
-- Run **`npm run build`** in your terminal. Webpack will transpile, autoprefix, minify and bundle your css, image, font, and javascript assests in the **`build`** folder.
-- In **`index.html`** toggle the commenting from the Development section above.
+- Run **`gulp`** in your terminal. Gulp will transpile, autoprefix, minify and bundle your css, image and javascript files in the **`docs`** folder.
+- In the **`docs`** folder, in **`index.html`** un/comment thusly: 
+```html
+<!-- <link rel="stylesheet" href="./main.css"> -->
+<!-- <script src="./app.js" defer></script> -->
+<link rel="stylesheet" href="./main.min.css">
+<script src="./app.min.js"></script>
+```
 - Upload/deploy the contents of the **`build`** folder to your site.
 
 ## Demo
 See a build of the 
-[Template](https://callumgrayson.github.io/project-template/).
+[Template](https://callumgrayson.github.io/gulp-template/).
 
 
 
